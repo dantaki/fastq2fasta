@@ -6,7 +6,7 @@ Convert FASTQ to FASTA with C++
 ```
 git clone --recursive https://github.com/dantaki/fastq2fasta.git
 cd fastq2fasta/
-g++ src/fastq2fasta -o <INSTALL_PATH>
+g++ src/fastq2fasta -o <INSTALL_PATH/fastq2fasta>
 ```
 
 ## Usage
