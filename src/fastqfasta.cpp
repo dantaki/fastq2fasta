@@ -47,8 +47,8 @@ int main (int argc, char *argv[])
         // iterate each line and convert to FASTQ
         unsigned short c=1;
         while(getline(fin,line,'\n')){
-                if(c%4==1) { fout << '<' << line << endl; }
-                                if(c%4==2) { fout << line << endl; }
+                if(c%4==1) { fout << '>' << line << endl; }
+                if(c%4==2) { fout << line << endl; }
                 c++;
                 if(c==5) {c==1;}
         }
