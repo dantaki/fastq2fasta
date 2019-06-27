@@ -50,7 +50,7 @@ int main (int argc, char *argv[])
 		if(c%4==1) { fout << '>' << line.erase(0, 1) << endl; }
 		if(c%4==2) { fout << line << endl; } 
 		c++;
-		if(c==5) {c==1;} 	
+		if(c==5) {c=1;} 	
 	}
 	fout.close();
 	return 0;
